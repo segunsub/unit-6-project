@@ -5,7 +5,7 @@ function renderList(el, mediaArr, type) {
     el.append(item);
   });
 }
-
+ 
 function splashEndAnimation() {
   setTimeout(() => {
     document.getElementById('splash-screen').classList.add('animate__zoomOut');
